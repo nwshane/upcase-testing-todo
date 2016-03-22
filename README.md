@@ -9,4 +9,4 @@ This dockerized setup of Rails was built with [this tutorial](https://docs.docke
 * `docker-compose run web rake db:create`
 * `docker-compose up`
 
-The application should now be viewable at `http://{docker_machine_ip_address}:3000/`. You can determine docker_machine_ip_address by running `docker-machine ip`.
+The application should now be viewable at `http://{docker_machine_ip_address}:3000/`, where `docker_machine_ip_address` is the output of the command `docker-machine ip`.

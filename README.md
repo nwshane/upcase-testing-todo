@@ -4,7 +4,7 @@ This dockerized setup of Rails was built with [this tutorial](https://docs.docke
 
 ## Setup
 
-* Install [Docker Toolbox](https://www.docker.com/)
+* Install [docker, docker-machine and docker-compose](https://www.docker.com/) (packaged together in Docker Toolbox on Mac and Windows)
 * `docker-compose build`
 * `docker-compose run web rake db:create`
 * `docker-compose up`

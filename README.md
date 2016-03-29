@@ -1,8 +1,8 @@
-## Background
+## Todos app for learning test-driven development
 
-This dockerized setup of Rails was built with [this tutorial](https://docs.docker.com/compose/rails/).
+This Todos app is used as an example in the Test-Driven Rails course on Upcase. Setup is described in [this video](https://upcase.com/videos/setting-up-the-app-and-initial-test).
 
-## Setup
+## Setup with Docker
 
 * Install [docker, docker-machine and docker-compose](https://www.docker.com/) (packaged together in Docker Toolbox on Mac and Windows)
 * `docker-compose build`
